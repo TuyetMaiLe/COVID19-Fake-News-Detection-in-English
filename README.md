@@ -15,7 +15,7 @@ A large-scale dataset of 2140 Twitter tweets, of which 1120 were labelled as fac
 - Convert the words in the Tweet into the original word by using the Stemming technique. In the process, we also perform the Lemmatization technique with the desire to create a more accurate and optimal result.
 - Vectorization of data using TF-IDF method.
 #### 3.1.2 Model training
-Sử dụng 3 mô hình học máy: Naive Bayes, SVM, Logistic Regression.
+Using 3 machine learning models: Naive Bayes, SVM, Logistic Regression.
 #### 3.1.3 Results
 Compare results of machine learning models with Lemmatization +Stop Word
 Model | Accuracy | Precision | Recall | F1 score
