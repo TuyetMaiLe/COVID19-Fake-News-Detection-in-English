@@ -23,7 +23,9 @@ Model | Accuracy | Precision | Recall | F1 score
 Naive Bayes | 0.8372 | 0.8422 | 0.8372 | 0.8363
 Logistic Regression | 0.9197 | 0.9228 | 0.9229 | 0.9229
 SVM | 0.9384 | 0.9386 | 0.9384 | 0.9384
+
 Compare results of machine learning models with Stemming +Stop Word
+
 Model | Accuracy | Precision | Recall | F1 score
 ------------ | ------------- | ------------- | ------------- | ------------- 
 Naive Bayes | 0.8299 | 0.8325 | 0.8299 | 0.8290
