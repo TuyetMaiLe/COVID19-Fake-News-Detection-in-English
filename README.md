@@ -17,16 +17,15 @@ A large-scale dataset of 2140 Twitter tweets, of which 1120 were labelled as fac
 #### 3.1.2 Model training
 Sử dụng 3 mô hình học máy: Naive Bayes, SVM, Logistic Regression.
 #### 3.1.3 Results
-\centering
-So sánh kết quả thực nghiệm mô hình học máy có tiền xử lý Lemmatization + Stop Word
-\begin{table}[]
-\begin{tabular}{lllll}
-\hline
-                    & Accuracy & Precision & Recall & F1 score \\ \hline
-Naive Bayes         & 0.8372   & 0.8422    & 0.8372 & 0.8363   \\
-Logistic Regression & 0.9197   & 0.9228    & 0.9229 & 0.9229   \\
-SVM                 & 0.9384   & 0.9386    & 0.9384 & 0.9384   \\
-CT - Bert           & 0.9743   & 0.9699    & 0.9813 & 0.9756  
-\end{tabular}
-\end{table}
-
+Compare results of machine learning models with Lemmatization +Stop Word
+Model | Accuracy | Precision | Recall | F1 score
+------------ | ------------- | ------------- | ------------- | ------------- 
+Naive Bayes | 0.8372 | 0.8422 | 0.8372 | 0.8363
+Logistic Regression | 0.9197 | 0.9228 | 0.9229 | 0.9229
+SVM | 0.9384 | 0.9386 | 0.9384 | 0.9384
+Compare results of machine learning models with Stemming +Stop Word
+Model | Accuracy | Precision | Recall | F1 score
+------------ | ------------- | ------------- | ------------- | ------------- 
+Naive Bayes | 0.8299 | 0.8325 | 0.8299 | 0.8290
+Logistic Regression | 0.9229 | 0.9228 | 0.9228 | 0.9228
+SVM | 0.9392 | 0.9394 | 0.9392 | 0.9392
