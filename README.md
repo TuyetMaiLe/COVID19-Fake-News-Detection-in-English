@@ -16,6 +16,7 @@ A large-scale dataset of 2140 Twitter tweets, of which 1120 were labelled as fac
 - Vectorization of data using TF-IDF method.
 #### 3.1.2 Model training
 Using 3 machine learning models: Naive Bayes, SVM, Logistic Regression.
+Using deep learning model: COVID-Twitter-BERT (CT-Bert).
 #### 3.1.3 Results
 Compare results of machine learning models with Lemmatization +Stop Word
 Model | Accuracy | Precision | Recall | F1 score
@@ -31,3 +32,9 @@ Model | Accuracy | Precision | Recall | F1 score
 Naive Bayes | 0.8299 | 0.8325 | 0.8299 | 0.8290
 Logistic Regression | 0.9229 | 0.9228 | 0.9228 | 0.9228
 SVM | 0.9392 | 0.9394 | 0.9392 | 0.9392
+
+Compare results of deep learning models 
+
+Model | Accuracy | Precision | Recall | F1 score
+------------ | ------------- | ------------- | ------------- | ------------- 
+CT-BERT | 0.9743 | 0.9699 | 0.9813 | 0.9756
