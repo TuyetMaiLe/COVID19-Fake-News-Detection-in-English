@@ -37,4 +37,4 @@ Compare results of deep learning models
 
 Model | Accuracy | Precision | Recall | F1 score
 ------------ | ------------- | ------------- | ------------- | ------------- 
-CT-BERT | 0.9743 | 0.9699 | 0.9813 | 0.9756
+CT-BERT | 0.9743 | 0.9699 | 0.9813 | 0.9747
